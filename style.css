@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.main-container{
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(244, 234, 234);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-form{
+     width: 33.2%;
+     height: 57%;
+     background-color: white;
+     border: none;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     padding-left: 45px;
+}
+.login-form img{
+     width: 120px; 
+     margin-bottom: 25px
+}
+.login-form h1{
+     font-size: 24px;
+     font-weight: 600;
+     margin-bottom: 20px
+}
+.login-form input{
+     width: 85%;
+     border: none;
+     border-bottom: 1px solid rgb(117, 115, 115);
+     padding: 10px 0 10px 10px;
+     margin-bottom: 17px
+}
+.login-form ::placeholder{
+     font-size: 15px;
+}
+
+.login-form p{
+     font-size: 13px;
+     margin-bottom: 17px;
+     font-weight: 400;
+}
+.login-form a{
+     margin-bottom: 25px;
+     font-size: 13px;
+     font-weight: 400;
+     color: #076ebd;
+     text-decoration: none;
+}
+.next{
+     position: relative;
+     left: 62%;
+     width: 100px;
+     padding: 7px 5px;
+     color: whitesmoke;
+     background-color: #076ebd;
+     border: none;
+     border-radius: 1px;
+     font-size: 15px;
+     cursor: pointer;
+}
+
+.next:hover{
+     background-color: #024e88;
+}
+
+.sign-in-options{
+     margin-top: 20px;
+     margin-bottom: 43.5px;
+     width: 33.2%;
+     height: 8%;
+     background-color: white;
+     border: none;
+     display: flex;
+     align-items: center;
+     padding-left: 55px;
+    
+}
+.sign-in-options h4{
+     font-size: 15px;
+font-weight: 400;
+}
+
+.sign-in-options i{
+     margin-right: 5px;
+}
