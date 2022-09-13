@@ -11,6 +11,13 @@
      justify-content: center;
      padding: 5px;
 }
+.login-form h1{
+font-size: 18px;
+}
+.login-form p{
+     padding-right: 32vw;
+}
+
 }
 
 @media(max-width:770px) {
